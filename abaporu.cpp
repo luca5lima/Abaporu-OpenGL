@@ -7,7 +7,7 @@ void desenharSol() {
     
     // Posição no canto superior direito e tamanho
     float raio = 0.3f;
-    float centroX = 0.5f;
+    float centroX = 0.2f;
     float centroY = 0.5f;
 
     // Desenho do círculo preenchido
@@ -52,16 +52,16 @@ void desenharCacto() {
 
     // 1. Haste/Braço Esquerdo (menor, na parte inferior)
     // Conector horizontal + ponta vertical
-    desenharElipse(-0.72f, -0.20f, 0.08f, 0.04f, r, g, b); // Conexão horizontal
-    desenharElipse(-0.78f, -0.08f, 0.04f, 0.16f, r, g, b); // Ponta vertical esquerda
+    desenharElipse(0.72f, -0.20f, 0.08f, 0.04f, r, g, b); // Conexão horizontal
+    desenharElipse(0.78f,  0.06f, 0.04f, 0.30f, r, g, b); // Ponta vertical direita
 
     // 2. Haste/Braço Direito (médio, na parte intermediária)
     // Conector horizontal + ponta vertical
-    desenharElipse(-0.52f, -0.05f, 0.08f, 0.04f, r, g, b); // Conexão horizontal
-    desenharElipse(-0.46f,  0.08f, 0.04f, 0.18f, r, g, b); // Ponta vertical direita
+    desenharElipse(0.52f, -0.05f, 0.08f, 0.04f, r, g, b); // Conexão horizontal
+    desenharElipse(0.46f,  0.14f, 0.04f, 0.24f, r, g, b); // Ponta vertical esquerda
 
     // 3. Tronco Principal (Elipse bem esticada no eixo Y)
-    desenharElipse(-0.62f, -0.05f, 0.07f, 0.40f, r, g, b);
+    desenharElipse(0.62f, -0.05f, 0.07f, 0.40f, r, g, b);
 }
 
 void display() {
