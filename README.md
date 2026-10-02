@@ -1,5 +1,7 @@
 # 🌵 Abaporu em OpenGL
 
+![Inlustração](/img/Abaporu.jpeg)
+
 Uma releitura geométrica da icónica obra "Abaporu" de Tarsila do Amaral, desenvolvida inteiramente em C/C++ utilizando a API gráfica OpenGL (FreeGLUT). 
 
 Este projeto foi desenvolvido como prática para a disciplina de Computação Gráfica, demonstrando a aplicação de primitivas geométricas, manipulação de matrizes de transformação, amostragem paramétrica de curvas e sistema de coordenadas.
@@ -18,3 +20,6 @@ Como a biblioteca FreeGLUT já está pré-compilada neste repositório, não pre
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/SeuUsuario/Abaporu-OpenGL.git](https://github.com/SeuUsuario/Abaporu-OpenGL.git)
+
+![Apresentação](/img/Equipe1.jpeg)
+![Apresentação1](/img/Equipe.jpeg)
